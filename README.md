@@ -1,5 +1,6 @@
 # courseproject run_analysis
 
+
 STEP 1: 
 
 The first 7 lines of the code read all the files that are necessary to perform the analysis;
