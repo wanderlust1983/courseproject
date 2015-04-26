@@ -17,7 +17,7 @@ line 20 to 25 replace the activity observations from numbers to more descriptive
 line 26 to 27 column bind the activity and subject to the test and train data sets ;
 
 STEP 4: 
-line 29 to 31 simplifies the columns by using gsub command to get rid of all the underscores and bracket;
+line 29 to 31 simplifies the column names by using gsub command to get rid of all the underscores and bracket;
 line 32 to 33 give more discriptive names by replacing f with Freq, Acc with Acceleration;
 line 34 replace the orginal names with the simplified and descriptive names;
 
