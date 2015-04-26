@@ -12,7 +12,7 @@ The six activites each participants of the experiment performs: WALKING, WALKING
 
 In genearl: 
 
-t standx for time
+t stands for time
 
 X stands for X-axis
 
@@ -23,6 +23,8 @@ Z stands for Z-axis
 std stands for standard deviation
 
 mag is short for magnititude
+
+Details of each column name:
 
 tBodyAccelerationstdX: time domain body acceleartion signal's standard deviation in the X axis
 
