@@ -10,6 +10,8 @@ The six activites each participants of the experiment performs: WALKING, WALKING
 
 3rd column - 68th column are all columns that measures the mean and standard deviation of the data
 
+In genearl: 
+
 t standx for time
 
 X stands for X-axis
