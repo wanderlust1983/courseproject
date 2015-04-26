@@ -11,11 +11,11 @@ line 9 row bind the test and train activity level, i.e. the y_test of each, the 
 
 line 10 give column names to the combined data from line 8, the "totaldata". the column names are from the feature.txt;
 
-line 11 give the column name of activity; 
+line 11 give the column name to activity; 
 
 line 12 row combines the subjects of test and train, and the combined file is called "subject";
 
-line 13 give column name to "subject" file 
+line 13 give column name to subject
 
 
 STEP 2: 
