@@ -1,16 +1,24 @@
 Data Dictionary - run_analysis.R
-1st Column: Subject
+1st Column: Subject 
+
 Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
 
 2nd Column:Activity
+
 The six activites each participants of the experiment performs: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 3rd column - 68th column are all columns that measures the mean and standard deviation of the data
+
 t standx for time
+
 X stands for X-axis
+
 Y stands for Y-axis
+
 Z stands for Z-axis
+
 std stands for standard deviation
+
 mag is short for magnititude
 
 tBodyAccelerationstdX
