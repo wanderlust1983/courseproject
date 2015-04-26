@@ -1,4 +1,5 @@
 Data Dictionary - run_analysis.R
+
 1st Column: Subject 
 
 Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
