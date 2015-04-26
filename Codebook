@@ -1,0 +1,81 @@
+Data Dictionary - run_analysis.R
+1st Column: Subject
+Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
+
+2nd Column:Activity
+The six activites each participants of the experiment performs: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+3rd column - 68th column are all columns that measures the mean and standard deviation of the data
+t standx for time
+X stands for X-axis
+Y stands for Y-axis
+Z stands for Z-axis
+std stands for standard deviation
+mag is short for magnititude
+
+tBodyAccelerationstdX
+tBodyAccelerationstdY
+tBodyAccelerationstdZ
+tGravityAccelerationstdX
+tGravityAccelerationstdY
+tGravityAccelerationstdZ
+tBodyAccelerationJerkstdX
+tBodyAccelerationJerkstdY
+tBodyAccelerationJerkstdZ
+tBodyGyrostdX
+tBodyGyrostdY
+tBodyGyrostdZ
+tBodyGyroJerkstdX
+tBodyGyroJerkstdY
+tBodyGyroJerkstdZ
+tBodyAccelerationMagstd
+tGravityAccelerationMagstd
+tBodyAccelerationJerkMagstd
+tBodyGyroMagstd
+tBodyGyroJerkMagstd
+FreqBodyAccelerationstdX
+FreqBodyAccelerationstdY
+FreqBodyAccelerationstdZ
+FreqBodyAccelerationJerkstdX
+FreqBodyAccelerationJerkstdY
+FreqBodyAccelerationJerkstdZ
+FreqBodyGyrostdX
+FreqBodyGyrostdY
+FreqBodyGyrostdZ
+FreqBodyAccelerationMagstd
+FreqBodyBodyAccelerationJerkMagstd
+FreqBodyBodyGyroMagstd
+FreqBodyBodyGyroJerkMagstd
+tBodyAccelerationmeanX
+tBodyAccelerationmeanY
+tBodyAccelerationmeanZ
+tGravityAccelerationmeanX
+tGravityAccelerationmeanY
+tGravityAccelerationmeanZ
+tBodyAccelerationJerkmeanX
+tBodyAccelerationJerkmeanY
+tBodyAccelerationJerkmeanZ
+tBodyGyromeanX
+tBodyGyromeanY
+tBodyGyromeanZ
+tBodyGyroJerkmeanX
+tBodyGyroJerkmeanY
+tBodyGyroJerkmeanZ
+tBodyAccelerationMagmean
+tGravityAccelerationMagmean
+tBodyAccelerationJerkMagmean
+tBodyGyroMagmean
+tBodyGyroJerkMagmean
+FreqBodyAccelerationmeanX
+FreqBodyAccelerationmeanY
+FreqBodyAccelerationmeanZ
+FreqBodyAccelerationJerkmeanX
+FreqBodyAccelerationJerkmeanY
+FreqBodyAccelerationJerkmeanZ
+FreqBodyGyromeanX
+FreqBodyGyromeanY
+FreqBodyGyromeanZ
+FreqBodyAccelerationMagmean
+FreqBodyBodyAccelerationJerkMagmean
+FreqBodyBodyGyroMagmean
+FreqBodyBodyGyroJerkMagmean
