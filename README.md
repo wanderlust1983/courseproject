@@ -23,6 +23,6 @@ line 34 replace the orginal names with the simplified and descriptive names;
 
 STEP 5: 
 line 37 called the reshape2 package. NB: please install.packages("reshape2") if you haven't done it already;
-line 38 use the melt command to rearranging the data by "subject" and "activity" column.
-line 39 use the dcast command to perform STEP 5's mean for each subject, activity and variable
-line 40 use write.table to generate .txt file for the first box for submission
+line 38 use the melt command to rearranging the data by "subject" and "activity" column;
+line 39 use the dcast command to perform STEP 5's mean for each subject, activity and variable;
+line 40 use write.table to generate .txt file for the first box for submission.
