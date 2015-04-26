@@ -9,17 +9,13 @@ totaldata<-rbind(test,train)
 activity<-rbind(testlabel,trainlabel)
 names(totaldata)<-feature[,2]
 names(activity)<-"activity"
-
 subject<-rbind(subjectx,subjecty)
 names(subject)<-"subject"
+
 totalmeanraw<-totaldata[,grep("mean",names(totaldata))]
 totalstd<-totaldata[,grep("std",names(totaldata))]
 totalmean<-totalmeanraw[,!grepl("Freq",names(totalmeanraw))]
 finaltotaldata<-cbind(totalstd,totalmean)
-simplenames<-names(finaltotaldata)
-sim<-gsub("-","",simplenames)
-finalname<-gsub("\\(|\\)","",sim)
-names(finaltotaldata)<-finalname
 
 activity[activity==1]<-"walking"
 activity[activity==2]<-"walkingupstairs"
@@ -30,8 +26,10 @@ activity[activity==6]<-"laying"
 finaldata<-cbind(activity,finaltotaldata)
 final<-cbind(subject,finaldata)
 
-changes<-names(final)
-accnames<-gsub("Acc","Acceleration",changes)
+simplenames<-names(final)
+sim<-gsub("-","",simplenames)
+finalname<-gsub("\\(|\\)","",sim)
+accnames<-gsub("Acc","Acceleration",finalname)
 fnames<-gsub("f","Freq",accnames)
 names(final)<-fnames
 
